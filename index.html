@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://at.alicdn.com/t/font_517261_rxa31vvliocd6lxr.css">
+	<link rel="stylesheet" href="index.css">
+	<script src="function.js"></script>
+</head>
+<body>
+	<!-- option选项 保存 撤销 退出 新建   
+	shape图形 直线 虚线  铅笔 圆形 矩形 多边形 多角形   
+	style样式/属性	 填充 填充样式 描边样式 --> 
+<!-- 	height:calc(100% - 100px) -->
+	<div class="top">
+		<ul class="option">
+			<li><i class="iconfont icon-baocun"></i>保存</li>
+			<li><i class="iconfont icon-undoIcon"></i>撤销</li>
+			<li><i class="iconfont icon-tuichu"></i>退出</li>
+			<li><i class="iconfont icon-xinjian"></i>新建</li>
+		</ul>
+		<ul class="shape">
+			<li id="line"><i class="iconfont icon-line"></i>直线</li>
+			<li id="dash"><i class="iconfont icon-xuxian"></i>虚线</li>
+			<li id="pencil"><i class="iconfont icon-qianbi"></i>铅笔</li>
+			<li id="radius"><i class="iconfont icon-circle"></i>圆形</li>
+			<li id="rectangle"><i class="iconfont icon-juxing"></i>矩形</li>
+			<li id="polygon"><i class="iconfont icon-duobianxing"></i>多边形</li>
+			<li id="horn"><i class="iconfont icon-wuxing"></i>多角形</li>
+		<!-- 	<li id="">三角形</li> -->
+		</ul>
+		<ul class="style">
+			<li class="fill"><i class="iconfont icon-tianchong"></i>填充</li>
+			<li id=""><i class="iconfont icon-yangshi"></i>填充样式</li>
+			<li class="stroke"><i class="iconfont icon-miaobian"></i>描边</li>
+			<li id=""><i class="iconfont icon-yangshi1"></i>描边样式</li>
+		</ul>
+	</div>
+	<div class="con">
+		<canvas width="1200" height="500px"></canvas>
+	</div>
+</body>
+</html>
+<script src="palette.js"></script>
+<script src="index.js"></script>

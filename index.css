@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	background: #B5B7B6;
+}
+.top{
+	width: 100%;
+	height: 20%;
+	background:#DADEE2;
+	padding: 10px 100px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+}
+
+.option,.shape,.style{
+	padding: 5px 10px;
+	width: 200px;
+	height: 100%;
+	border: 2px solid #B5B7B6;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 15px 0 10px 0;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+.shape{
+	width: 450px;
+	padding: 10px;
+}
+.shape > li{
+	padding:8px 15px;
+	margin-right: 5px;
+}
+.style{
+	width: 220px;
+	padding: 10px;
+}
+.style>li{
+	padding: 0 4px;
+	text-align: center;
+	line-height: 35px;
+}
+li{
+	padding: 8px 10px;
+	border: 2px solid transparent;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	background: #ccc;
+	color: #999;
+	font-weight: 600;
+	box-sizing: border-box;
+}
+.hot{
+	border: 2px solid  #2285f4!important;
+	background: #fff;
+	font-weight: 600;
+}
+.con{
+	width: 100%;
+	height:calc(100% - 20%);
+}
+canvas{
+	border: 1px solid green;
+	background: #fff;
+	margin:50px 100px  0;
+}
+.iconfont{
+	padding-right: 8px;
+	color: #999;
+}
